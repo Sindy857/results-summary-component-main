@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root {
+--Lightred: hsl(0, 100%, 67%);
+--Orangeyyellow: hsl(39, 100%, 56%);
+--Greenteal: hsl(166, 100%, 37%);
+--Cobaltblue: hsl(234, 85%, 45%);
+--Lightslateblue : hsl(252, 100%, 67%);
+--Lightroyalblue : hsl(241, 81%, 54%);
+--Violetblue : hsla(256, 72%, 46%, 1);
+--Persianblue : hsla(241, 72%, 46%, 0);
+--White: hsl(0, 0%, 100%);
+--Paleblue: hsl(221, 100%, 96%);
+--Lightlavender: hsl(241, 100%, 89%);
+--Darkgrayblue: hsl(224, 30%, 27%);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Paleblue) ;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+main {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: auto;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    margin-bottom: 20px;  
+}
+
+#Result {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(var(--Lightslateblue), var(--Lightroyalblue));
+    border-radius: 25px;
+    color: white;
+}
+
+#Summary {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#YourResult {
+    font-size: 20px;
+    color: var(--Lightlavender);
+    margin-top: 10px;
+}
+
+#circle {
+    background: linear-gradient(var(--Violetblue), var(--Persianblue));
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    display: inline-block;  
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-top: 25px;
+    
+}
+
+div h1 p {
+    font-size: 18px;
+    color: var(--Lightlavender);
+}
+
+#resultOf {
+    font-size: 18px;
+    color: var(--Lightlavender);
+}
+
+#description {
+    font-size: 18px;
+    color: var(--Lightlavender);
+}
+
+#great {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+#Summary2 {
+    font-size: 20px;
+   color: var(--Darkgrayblue);
+   float: left;
+   margin-left: 10px;
+}
+
+.Results {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px 30px 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+#Reaction {
+    color: red;
+    background-color: hsl(0, 91%, 96%)
+}
+#Memory {
+    color: var(--Orangeyyellow);
+    background-color: hsl(39, 93%, 94%);
+}
+#Verbal {
+    color: var(--Greenteal);
+    background-color: hsl(166, 100%, 94%);
+}
+#Visual {
+    color: var(--Cobaltblue);
+    background-color: hsl(236, 100%, 97%);
+}
+
+span {
+    color: var(--Lightlavender);
+}
+
+.numbers {
+    color: var(--Darkgrayblue);
+    font-weight: bold;
+}
+
+
+
+button {
+    color: var(--White);
+    background-color: var(--Darkgrayblue);
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 100px;
+    border-radius: 20px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
